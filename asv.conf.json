@@ -1,0 +1,17 @@
+{
+  "version": 1,
+
+  "project": "cacheme",
+
+  "project_url": "https://github.com/Yiling-J/cacheme",
+
+  "repo": "https://github.com/Yiling-J/cacheme.git",
+
+  "branches": ["master"],
+
+  "show_commit_url": "https://github.com/Yiling-J/cacheme/commits",
+
+  "pythons": ["3.11", "3.10", "3.9", "3.8", "3.7"],
+
+  "environment_type": "conda"
+}
