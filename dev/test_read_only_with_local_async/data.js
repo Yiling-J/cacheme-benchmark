@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674701746994,
+  "lastUpdate": 1674702426560,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_read_only_with_local_async": [
@@ -87,6 +87,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03169537866436809",
             "extra": "mean: 403.39676766666344 msec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "2ca31df60d6131fe0d40e8cb9a29a416f881df29",
+          "message": "update test mysql docker",
+          "timestamp": "2023-01-26T11:04:41+08:00",
+          "tree_id": "c45e29d4f4d040708ddefe658f5e004fac49428a",
+          "url": "https://github.com/Yiling-J/cacheme/commit/2ca31df60d6131fe0d40e8cb9a29a416f881df29"
+        },
+        "date": 1674702426291,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-small]",
+            "value": 4.973046716714377,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010550232707518741",
+            "extra": "mean: 201.08397466667802 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-medium]",
+            "value": 3.5150784780697037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005803227324584402",
+            "extra": "mean: 284.48866966667197 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-large]",
+            "value": 3.0326438852321393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015013605964481256",
+            "extra": "mean: 329.7452776666698 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-small]",
+            "value": 2.887952488691729,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0071826335820281955",
+            "extra": "mean: 346.2660843333367 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-medium]",
+            "value": 2.677748819352426,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0044389848082237214",
+            "extra": "mean: 373.44802200000044 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-large]",
+            "value": 2.1577127004259413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0084583974401309",
+            "extra": "mean: 463.4537303333275 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-small]",
+            "value": 4.421954840697772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01664792581243391",
+            "extra": "mean: 226.14432666666553 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-medium]",
+            "value": 3.689755067527849,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009546708744912768",
+            "extra": "mean: 271.0206996666595 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-large]",
+            "value": 2.879022075892134,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0030694263019689022",
+            "extra": "mean: 347.340164000002 msec\nrounds: 3"
           }
         ]
       }
