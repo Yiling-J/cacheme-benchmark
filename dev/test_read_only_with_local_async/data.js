@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674700416937,
+  "lastUpdate": 1674700858231,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark with pytest-benchmark": [
@@ -348,6 +348,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0643839715441079",
             "extra": "mean: 479.8505349999971 msec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c47e7af2ed671a9afbb70fe213dd71c200bc4f1",
+          "message": "Update README.md",
+          "timestamp": "2023-01-26T10:38:24+08:00",
+          "tree_id": "6041777b99cd25a5d1dfc5e9c8084702e5f226eb",
+          "url": "https://github.com/Yiling-J/cacheme/commit/8c47e7af2ed671a9afbb70fe213dd71c200bc4f1"
+        },
+        "date": 1674700857692,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-small]",
+            "value": 3.7396058729897956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02363441355293139",
+            "extra": "mean: 267.4078589999927 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-medium]",
+            "value": 3.004226180157883,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012878563900909096",
+            "extra": "mean: 332.86441833332486 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-large]",
+            "value": 1.832317811395579,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06562248468258705",
+            "extra": "mean: 545.7568516666621 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-small]",
+            "value": 1.9198944518826284,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012222371386523477",
+            "extra": "mean: 520.8619666666626 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-medium]",
+            "value": 2.020159191466823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01440763472840127",
+            "extra": "mean: 495.01049433332395 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-large]",
+            "value": 1.3572246137037571,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08633467813990596",
+            "extra": "mean: 736.7977193333388 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-small]",
+            "value": 2.7061974739303993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017654983766026963",
+            "extra": "mean: 369.52218366667466 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-medium]",
+            "value": 2.539502920237946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015218568820793312",
+            "extra": "mean: 393.7778499999922 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-large]",
+            "value": 1.8538647198021743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03579097189453813",
+            "extra": "mean: 539.413685000009 msec\nrounds: 3"
           }
         ]
       }
