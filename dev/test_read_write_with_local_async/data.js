@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674783783135,
+  "lastUpdate": 1674784541597,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_read_write_with_local_async": [
@@ -609,6 +609,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.6063813151559938",
             "extra": "mean: 1.8753542079999856 sec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "dbb787c714bb3f227b17c50342ff689faec38502",
+          "message": "add set prefix api",
+          "timestamp": "2023-01-27T09:53:11+08:00",
+          "tree_id": "381f31ceb6194e9d220488f48110e920459d16fa",
+          "url": "https://github.com/Yiling-J/cacheme/commit/dbb787c714bb3f227b17c50342ff689faec38502"
+        },
+        "date": 1674784541290,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-small]",
+            "value": 2.5199354720122593,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03472716179682385",
+            "extra": "mean: 396.8355583333505 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-medium]",
+            "value": 1.7438125796462138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15092296180712844",
+            "extra": "mean: 573.4561223333307 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-large]",
+            "value": 1.9160338393827534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016258451037574066",
+            "extra": "mean: 521.9114503333344 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-small]",
+            "value": 0.7447804837825367,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017738014868824502",
+            "extra": "mean: 1.3426775026666558 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-medium]",
+            "value": 0.8096092854248748,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018589240037930783",
+            "extra": "mean: 1.2351636993333273 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-large]",
+            "value": 0.7317976965875248,
+            "unit": "iter/sec",
+            "range": "stddev: 0.09162305902254068",
+            "extra": "mean: 1.366497878666659 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-small]",
+            "value": 0.8477009853090692,
+            "unit": "iter/sec",
+            "range": "stddev: 0.7320156163738079",
+            "extra": "mean: 1.1796612453333448 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-medium]",
+            "value": 0.7268760392117949,
+            "unit": "iter/sec",
+            "range": "stddev: 0.7092458091549673",
+            "extra": "mean: 1.3757503976666687 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-large]",
+            "value": 0.5499380945502488,
+            "unit": "iter/sec",
+            "range": "stddev: 0.8532224685926312",
+            "extra": "mean: 1.8183864873333089 sec\nrounds: 3"
           }
         ]
       }
