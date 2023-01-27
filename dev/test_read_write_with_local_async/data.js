@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674818356704,
+  "lastUpdate": 1674821324508,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_read_write_with_local_async": [
@@ -870,6 +870,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.6383760441380715",
             "extra": "mean: 1.8079330253333314 sec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "0765f45cedfad41785b2d35a839274eff62b6445",
+          "message": "update readme",
+          "timestamp": "2023-01-27T20:06:04+08:00",
+          "tree_id": "e9f7b0720a04aaee2a57dc25586ec56fefc75b1b",
+          "url": "https://github.com/Yiling-J/cacheme/commit/0765f45cedfad41785b2d35a839274eff62b6445"
+        },
+        "date": 1674821324189,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-small]",
+            "value": 1.6784261867606,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035213555433191386",
+            "extra": "mean: 595.7962333333361 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-medium]",
+            "value": 2.174787620136278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05135934615325646",
+            "extra": "mean: 459.81501400000485 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-large]",
+            "value": 1.6518051281578576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.045085739091788306",
+            "extra": "mean: 605.3982900000013 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-small]",
+            "value": 0.7105642396500973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1472802486614532",
+            "extra": "mean: 1.4073322919999878 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-medium]",
+            "value": 0.6848558008876816,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03359325950483485",
+            "extra": "mean: 1.460161392666663 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-large]",
+            "value": 0.6389402653301921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03280587971418203",
+            "extra": "mean: 1.565091534000004 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-small]",
+            "value": 0.7821801241986733,
+            "unit": "iter/sec",
+            "range": "stddev: 0.9201823807317344",
+            "extra": "mean: 1.2784778966666768 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-medium]",
+            "value": 0.6248763089892005,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1719706981166158",
+            "extra": "mean: 1.6003167116666646 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-large]",
+            "value": 0.49729781891701175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.9593318565599058",
+            "extra": "mean: 2.0108674559999997 sec\nrounds: 3"
           }
         ]
       }
