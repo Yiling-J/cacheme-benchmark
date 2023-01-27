@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674783518696,
+  "lastUpdate": 1674783783135,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_read_write_with_local_async": [
@@ -522,6 +522,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.8263488295849312",
             "extra": "mean: 2.332651215999988 sec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "76cadfe1dd1ffe51ecaab49d459f5a79aca72143",
+          "message": "remove example db file",
+          "timestamp": "2023-01-27T09:40:37+08:00",
+          "tree_id": "6b1ad5dffccd778493eae719e3c93316cdc102e2",
+          "url": "https://github.com/Yiling-J/cacheme/commit/76cadfe1dd1ffe51ecaab49d459f5a79aca72143"
+        },
+        "date": 1674783782874,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-small]",
+            "value": 2.3892594606419957,
+            "unit": "iter/sec",
+            "range": "stddev: 0.10660232694584303",
+            "extra": "mean: 418.5397259999964 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-medium]",
+            "value": 2.4738246408277087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04189979926394399",
+            "extra": "mean: 404.2323709999967 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[redis-large]",
+            "value": 2.026658113628983,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025010106466461113",
+            "extra": "mean: 493.42313500000046 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-small]",
+            "value": 0.8392997997396819,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07379177069687193",
+            "extra": "mean: 1.1914693656666675 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-medium]",
+            "value": 0.7592133133988554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01827479339316163",
+            "extra": "mean: 1.3171528769999934 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[mongo-large]",
+            "value": 0.7188580587209242,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061900010596334515",
+            "extra": "mean: 1.391095206999997 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-small]",
+            "value": 0.9165359212135745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.7432185562532494",
+            "extra": "mean: 1.0910647109999918 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-medium]",
+            "value": 0.7907682052661467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.7714621456992161",
+            "extra": "mean: 1.2645930796666676 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_write_with_local_async[postgres-large]",
+            "value": 0.5332325998652131,
+            "unit": "iter/sec",
+            "range": "stddev: 0.6063813151559938",
+            "extra": "mean: 1.8753542079999856 sec\nrounds: 3"
           }
         ]
       }
