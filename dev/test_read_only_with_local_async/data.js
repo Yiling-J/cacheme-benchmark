@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674899531021,
+  "lastUpdate": 1674994615024,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_read_only_with_local_async": [
@@ -1131,6 +1131,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021396018079157003",
             "extra": "mean: 761.729576666653 msec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfd27bb32c1e343e7f0f803b08bdd05a2d033227",
+          "message": "expire cache automatically (#13)\n\n* expire cache automatically\r\n\r\n* remove unused code\r\n\r\n* isort and fix lint",
+          "timestamp": "2023-01-29T20:14:52+08:00",
+          "tree_id": "a28df4a3dba45909784630709416d947411012e9",
+          "url": "https://github.com/Yiling-J/cacheme/commit/bfd27bb32c1e343e7f0f803b08bdd05a2d033227"
+        },
+        "date": 1674994614673,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-small]",
+            "value": 4.532406913389186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020261718689102207",
+            "extra": "mean: 220.63332333332633 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-medium]",
+            "value": 3.8810312810860417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00350711279594387",
+            "extra": "mean: 257.6634733333473 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[redis-large]",
+            "value": 2.3872179831588163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0748751079206456",
+            "extra": "mean: 418.8976486666623 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-small]",
+            "value": 2.8437849195756195,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015139107055177103",
+            "extra": "mean: 351.6440336666638 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-medium]",
+            "value": 2.5803371789036236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01890256186055257",
+            "extra": "mean: 387.5462509999939 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[mongo-large]",
+            "value": 1.8831150914674257,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018526168363299886",
+            "extra": "mean: 531.0349879999876 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-small]",
+            "value": 3.7250819952630247,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03171623312197518",
+            "extra": "mean: 268.45046666667827 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-medium]",
+            "value": 3.4936268205627714,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009745239428188094",
+            "extra": "mean: 286.23549433334006 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_only_with_local_async[postgres-large]",
+            "value": 2.5713466762407666,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0263270875003444",
+            "extra": "mean: 388.90127466669355 msec\nrounds: 3"
           }
         ]
       }
