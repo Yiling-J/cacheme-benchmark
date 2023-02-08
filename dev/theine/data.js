@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675846304919,
+  "lastUpdate": 1675847295709,
   "repoUrl": "https://github.com/Yiling-J/theine",
   "entries": {
     "Cacheme Benchmark: theine": [
@@ -38,6 +38,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011650552419666829",
             "extra": "mean: 6.199977700001114 msec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6c89a23b0ceacf3160cc6e8c6cfcc7215f2a3ea",
+          "message": "Update README.md",
+          "timestamp": "2023-02-08T17:07:29+08:00",
+          "tree_id": "12153536fc60a2a416daae121b01294aed03464d",
+          "url": "https://github.com/Yiling-J/theine/commit/c6c89a23b0ceacf3160cc6e8c6cfcc7215f2a3ea"
+        },
+        "date": 1675847295402,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write",
+            "value": 35.60283460085224,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019633473919195973",
+            "extra": "mean: 28.087651199999186 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read",
+            "value": 169.2742088990971,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006503342365489934",
+            "extra": "mean: 5.907574500000123 msec\nrounds: 10"
           }
         ]
       }
