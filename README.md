@@ -8,7 +8,15 @@ Cacheme is optimized for skewed workloads and concurrency requests. You can incr
 
 Benchmarks are parameterized by storage and payload size, `[redis-small]` in chart title means storage is `redis` and payload size is small. Different payloads json can be found here: https://github.com/Yiling-J/cacheme/tree/master/benchmarks
 
- ### Benchmarks
+### Theine Benchmarks
+Theine is the in-memory cache library used by Cacheme:
+
+https://github.com/Yiling-J/theine
+
+10k requests, zipf, read/write\
+https://yiling-j.github.io/cacheme-benchmark/dev/theine/
+
+### Cacheme Benchmarks
  
 10k requests, 1k keys, zipf, read only\
 https://yiling-j.github.io/cacheme-benchmark/dev/test_read_only_async/
