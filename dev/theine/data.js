@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675920511042,
+  "lastUpdate": 1675921639670,
   "repoUrl": "https://github.com/Yiling-J/theine",
   "entries": {
     "Cacheme Benchmark: theine": [
@@ -266,6 +266,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001365222837291363",
             "extra": "mean: 6.686134800000332 msec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "370b6e13b0c9103d2001d696f1ce98d0b01fca46",
+          "message": "fix poetry lock",
+          "timestamp": "2023-02-09T13:45:57+08:00",
+          "tree_id": "e41658ded55ca36ca0cd603ba0bfb96f0722cb6a",
+          "url": "https://github.com/Yiling-J/theine/commit/370b6e13b0c9103d2001d696f1ce98d0b01fca46"
+        },
+        "date": 1675921638925,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write",
+            "value": 24.229194338728973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004263758239748667",
+            "extra": "mean: 41.272523799999306 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read",
+            "value": 106.74792717405542,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00042919381617643917",
+            "extra": "mean: 9.367863400002818 msec\nrounds: 10"
           }
         ]
       }
