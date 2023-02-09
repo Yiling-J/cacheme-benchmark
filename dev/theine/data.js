@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675860730682,
+  "lastUpdate": 1675916059459,
   "repoUrl": "https://github.com/Yiling-J/theine",
   "entries": {
     "Cacheme Benchmark: theine": [
@@ -190,6 +190,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015015915715841364",
             "extra": "mean: 5.874120900001856 msec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "a59029dd3e8355fb47427c00fdcef9654b135ccf",
+          "message": "try fix django test",
+          "timestamp": "2023-02-09T12:13:10+08:00",
+          "tree_id": "5b28d1fa2f17833331fc0eddf6325f09d7c5969f",
+          "url": "https://github.com/Yiling-J/theine/commit/a59029dd3e8355fb47427c00fdcef9654b135ccf"
+        },
+        "date": 1675916059119,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write",
+            "value": 33.11178787926109,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003088876197871024",
+            "extra": "mean: 30.200725000003104 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read",
+            "value": 139.91202276043595,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008043897664669657",
+            "extra": "mean: 7.147348600000214 msec\nrounds: 10"
           }
         ]
       }
