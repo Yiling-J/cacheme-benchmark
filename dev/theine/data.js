@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675989668373,
+  "lastUpdate": 1676366275891,
   "repoUrl": "https://github.com/Yiling-J/theine",
   "entries": {
     "Cacheme Benchmark: theine": [
@@ -570,6 +570,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016376291616163424",
             "extra": "mean: 6.741991599999153 msec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "21a2899789d3b54d21411869ee987a79008c74e7",
+          "message": "fix lint",
+          "timestamp": "2023-02-14T17:16:41+08:00",
+          "tree_id": "9bdc0d36e64ae680c9c48951b6323c7e9e82c4c5",
+          "url": "https://github.com/Yiling-J/theine/commit/21a2899789d3b54d21411869ee987a79008c74e7"
+        },
+        "date": 1676366275080,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write",
+            "value": 34.01112274590053,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001974805357516285",
+            "extra": "mean: 29.40214609999998 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read",
+            "value": 151.6747547229193,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011725223696492646",
+            "extra": "mean: 6.593055000001868 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_decorator_custom_key",
+            "value": 87.10929022494626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014301858214217314",
+            "extra": "mean: 11.479831800002671 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_decorator_auto_key",
+            "value": 74.1720146481467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010182377520786678",
+            "extra": "mean: 13.482173900004568 msec\nrounds: 10"
           }
         ]
       }
