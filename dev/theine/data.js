@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676443592497,
+  "lastUpdate": 1676443874347,
   "repoUrl": "https://github.com/Yiling-J/theine",
   "entries": {
     "Cacheme Benchmark: theine": [
@@ -1074,6 +1074,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0012103023736500821",
             "extra": "mean: 552.0808089000013 msec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "df04f66266cec7cd3cb61665af0aa41c3459f163",
+          "message": "release 0.1.3",
+          "timestamp": "2023-02-15T14:49:54+08:00",
+          "tree_id": "3dc9ed2fbbb92a85edf79df15eb79f88ba9ac9ee",
+          "url": "https://github.com/Yiling-J/theine/commit/df04f66266cec7cd3cb61665af0aa41c3459f163"
+        },
+        "date": 1676443873750,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write",
+            "value": 33.496343512337994,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0023617236137167593",
+            "extra": "mean: 29.85400480000635 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read",
+            "value": 164.39329913179296,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015745448056361244",
+            "extra": "mean: 6.082973000002312 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_decorator_custom_key",
+            "value": 93.31287118928876,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000039820192642753395",
+            "extra": "mean: 10.716635199997882 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_decorator_auto_key",
+            "value": 77.99298225389875,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018644782151378765",
+            "extra": "mean: 12.821666399992182 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_decorator_custom_key",
+            "value": 36.66737099797024,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019089172476459017",
+            "extra": "mean: 27.27220340000258 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_decorator_auto_key",
+            "value": 14.772243725153931,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005986429151126814",
+            "extra": "mean: 67.69452349998915 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read_decorator_cachetools_lfu",
+            "value": 57.64014834612814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028595302630189835",
+            "extra": "mean: 17.34901850000483 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_decorator_cachetools_lfu",
+            "value": 2.0664899156236824,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013181396863636997",
+            "extra": "mean: 483.9123541999925 msec\nrounds: 10"
           }
         ]
       }
