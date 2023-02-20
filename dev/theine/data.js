@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676600338022,
+  "lastUpdate": 1676901968233,
   "repoUrl": "https://github.com/Yiling-J/theine",
   "entries": {
     "Cacheme Benchmark: theine": [
@@ -1010,6 +1010,107 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017046274475177158",
             "extra": "mean: 212.95157840000343 msec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "distinct": true,
+          "id": "84ebed008043b8e20550761efef20d307997faf5",
+          "message": "Merge branch 'main' of github.com:Yiling-J/theine into main",
+          "timestamp": "2023-02-20T22:04:40+08:00",
+          "tree_id": "8fd3dd34dc517648d6bab4816c208bd190f12900",
+          "url": "https://github.com/Yiling-J/theine/commit/84ebed008043b8e20550761efef20d307997faf5"
+        },
+        "date": 1676901967879,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write",
+            "value": 34.93686778724413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002372857883176498",
+            "extra": "mean: 28.623058200000173 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_read",
+            "value": 158.8525003700665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016148540292247742",
+            "extra": "mean: 6.295148000002371 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_read[theine_tlfu_auto]",
+            "value": 61.01904899383802,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00038498416251370513",
+            "extra": "mean: 16.388324899999418 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_read[theine_tlfu_custom]",
+            "value": 74.71193803676262,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006537986516086305",
+            "extra": "mean: 13.384741800004463 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_read[cachetools_lfu]",
+            "value": 62.707871892217476,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015328023357786852",
+            "extra": "mean: 15.946961200003784 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_write[theine_tlfu_auto]",
+            "value": 28.444187319106863,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023091557178325211",
+            "extra": "mean: 35.15656779999716 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_write[theine_tlfu_custom]",
+            "value": 38.09004362901721,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00042392326171398695",
+            "extra": "mean: 26.253579800003024 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_write[cachetools_lfu]",
+            "value": 1.5598394600686565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019510564734857999",
+            "extra": "mean: 641.091615900001 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_zipf[theine_tlfu_auto]",
+            "value": 41.168098861600335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005177898533923744",
+            "extra": "mean: 24.290652899999543 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_zipf[theine_tlfu_custom]",
+            "value": 54.1845386239626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039170747909938975",
+            "extra": "mean: 18.455449200000373 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_decorator_zipf[cachetools_lfu]",
+            "value": 4.569772815828285,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005871599283249266",
+            "extra": "mean: 218.82925919999963 msec\nrounds: 10"
           }
         ]
       }
