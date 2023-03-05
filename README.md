@@ -17,18 +17,17 @@ https://github.com/Yiling-J/theine
 https://yiling-j.github.io/cacheme-benchmark/dev/theine/
 
 ### Cacheme Benchmarks
+
+All benchmarks below run sequentially without concurrency. See Cacheme readme benchmarks section to get an idea of parallel performance.
  
-10k requests, 1k keys, zipf, read only\
-https://yiling-j.github.io/cacheme-benchmark/dev/test_read_only_async/
+1k requests read only\
+https://yiling-j.github.io/cacheme-benchmark/dev/test_read_only/
 
-10k requests, 1k keys, zipf, read only, local_cache + remote_cache\
-https://yiling-j.github.io/cacheme-benchmark/dev/test_read_only_with_local_async/
+1k requests write only\
+https://yiling-j.github.io/cacheme-benchmark/dev/test_write_only/
 
-10k requests, 1k keys, zipf, cold start\
-https://yiling-j.github.io/cacheme-benchmark/dev/test_read_write_async/
+1k requests zipf\
+https://yiling-j.github.io/cacheme-benchmark/dev/test_zipf/
 
-10k requests, 1k keys, zipf, cold start, local_cache + remote_cache\
-https://yiling-j.github.io/cacheme-benchmark/dev/test_read_write_with_local_async/
-
-1k requests(each request get 20 random keys), 1k keys, zipf, cold start\
-https://yiling-j.github.io/cacheme-benchmark/dev/test_read_write_batch_async/
+1k requests batch zipf, each request get 20 unique numbers\
+https://yiling-j.github.io/cacheme-benchmark/dev/test_read_only_batch/
