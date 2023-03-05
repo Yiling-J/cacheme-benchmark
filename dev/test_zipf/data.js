@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678030931862,
+  "lastUpdate": 1678031874183,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_zipf": [
@@ -129,6 +129,135 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.588525323501746",
             "extra": "mean: 1.5685739123333444 sec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b68b544a8c74554c6450994d77583d5e1ed6362",
+          "message": "Update README.md",
+          "timestamp": "2023-03-05T23:50:48+08:00",
+          "tree_id": "b1ac9eb7c2a84fe78e6f9d1e9cb5e507a2d8b7c8",
+          "url": "https://github.com/Yiling-J/cacheme/commit/7b68b544a8c74554c6450994d77583d5e1ed6362"
+        },
+        "date": 1678031873891,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[theine-tlfu-small]",
+            "value": 185.75775479809357,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014013721026579095",
+            "extra": "mean: 5.383355333331489 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[theine-tlfu-medium]",
+            "value": 190.77219624964656,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002160641786703837",
+            "extra": "mean: 5.2418540000000275 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[theine-tlfu-large]",
+            "value": 192.726972306744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00029623249459102314",
+            "extra": "mean: 5.188687333334959 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[redis-small]",
+            "value": 2.9528746279288858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02693443899315479",
+            "extra": "mean: 338.6530503333252 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[redis-medium]",
+            "value": 2.388434014019358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025909634108795473",
+            "extra": "mean: 418.6843739999991 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[redis-large]",
+            "value": 1.5430926372224854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018783357814725347",
+            "extra": "mean: 648.0492330000137 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[mongo-small]",
+            "value": 1.114102517634029,
+            "unit": "iter/sec",
+            "range": "stddev: 0.12206309924817277",
+            "extra": "mean: 897.5834666666552 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[mongo-medium]",
+            "value": 0.9918278843990993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1327510288580653",
+            "extra": "mean: 1.0082394493333406 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[mongo-large]",
+            "value": 0.8170708721718493,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13338212882227066",
+            "extra": "mean: 1.223884039999992 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[postgres-small]",
+            "value": 1.0521006723359774,
+            "unit": "iter/sec",
+            "range": "stddev: 0.5065112025409323",
+            "extra": "mean: 950.4793850000132 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[postgres-medium]",
+            "value": 1.0977478134924539,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1536197668447024",
+            "extra": "mean: 910.9560390000032 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[postgres-large]",
+            "value": 0.7334485274551383,
+            "unit": "iter/sec",
+            "range": "stddev: 0.32814733178699096",
+            "extra": "mean: 1.3634221933333492 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[mysql-small]",
+            "value": 0.8863989582339826,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4216283996900014",
+            "extra": "mean: 1.1281601706666606 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[mysql-medium]",
+            "value": 0.6805412965675978,
+            "unit": "iter/sec",
+            "range": "stddev: 0.6603257829194192",
+            "extra": "mean: 1.469418542333339 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_zipf[mysql-large]",
+            "value": 0.46578287003408786,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0048718763000852",
+            "extra": "mean: 2.146923092999998 sec\nrounds: 3"
           }
         ]
       }
