@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678032502090,
+  "lastUpdate": 1678033237751,
   "repoUrl": "https://github.com/Yiling-J/cacheme",
   "entries": {
     "Cacheme Benchmark: test_write_only": [
@@ -387,6 +387,135 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.6369798521834324",
             "extra": "mean: 2.323323717000013 sec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "njjyl723@gmail.com",
+            "name": "Yiling-J",
+            "username": "Yiling-J"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "13ac995177cd41ff7ad44c2a427df5fb7009e5da",
+          "message": "Update README.md",
+          "timestamp": "2023-03-06T00:15:28+08:00",
+          "tree_id": "fe1b483039b123ab6ad819b7a914ef1879f68b91",
+          "url": "https://github.com/Yiling-J/cacheme/commit/13ac995177cd41ff7ad44c2a427df5fb7009e5da"
+        },
+        "date": 1678033237434,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[theine-tlfu-small]",
+            "value": 241.87801833514976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002667964782486095",
+            "extra": "mean: 4.134315333336265 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[theine-tlfu-medium]",
+            "value": 249.76603167020832,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002539045275820056",
+            "extra": "mean: 4.0037469999939885 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[theine-tlfu-large]",
+            "value": 213.8356665779892,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003758248323891648",
+            "extra": "mean: 4.676488333321534 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[redis-small]",
+            "value": 2.916246335526231,
+            "unit": "iter/sec",
+            "range": "stddev: 0.08543426577663552",
+            "extra": "mean: 342.9065603333375 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[redis-medium]",
+            "value": 2.1943465232140924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07009623457032463",
+            "extra": "mean: 455.7165376666603 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[redis-large]",
+            "value": 1.5629240318721687,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023700723772873807",
+            "extra": "mean: 639.826363666657 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[mongo-small]",
+            "value": 0.9840641071790421,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3984731940176215",
+            "extra": "mean: 1.0161939579999928 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[mongo-medium]",
+            "value": 0.9400665199655478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4498422202903375",
+            "extra": "mean: 1.0637545096666656 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[mongo-large]",
+            "value": 0.7791975127878262,
+            "unit": "iter/sec",
+            "range": "stddev: 0.4698054383717484",
+            "extra": "mean: 1.2833716529999986 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[postgres-small]",
+            "value": 1.3342420055087718,
+            "unit": "iter/sec",
+            "range": "stddev: 0.3885018236241163",
+            "extra": "mean: 749.4892199999962 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[postgres-medium]",
+            "value": 0.9629326420210487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.6469868569240368",
+            "extra": "mean: 1.0384942376666686 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[postgres-large]",
+            "value": 0.6824464050645398,
+            "unit": "iter/sec",
+            "range": "stddev: 0.8416342488819754",
+            "extra": "mean: 1.4653165326666624 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[mysql-small]",
+            "value": 1.0289654843684175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.850993062534697",
+            "extra": "mean: 971.8498969999985 msec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[mysql-medium]",
+            "value": 0.668379974515457,
+            "unit": "iter/sec",
+            "range": "stddev: 1.5906155987764794",
+            "extra": "mean: 1.4961549390000073 sec\nrounds: 3"
+          },
+          {
+            "name": "benchmarks/benchmark_test.py::test_write_only[mysql-large]",
+            "value": 0.43349220818910295,
+            "unit": "iter/sec",
+            "range": "stddev: 2.5949808079120196",
+            "extra": "mean: 2.3068465386666617 sec\nrounds: 3"
           }
         ]
       }
