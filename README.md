@@ -29,5 +29,5 @@ https://yiling-j.github.io/cacheme-benchmark/dev/test_write_only/
 1k requests zipf\
 https://yiling-j.github.io/cacheme-benchmark/dev/test_zipf/
 
-1k requests batch zipf, each request get 20 unique numbers\
+100 requests batch zipf, each request get 20 unique numbers\
 https://yiling-j.github.io/cacheme-benchmark/dev/test_read_only_batch/
